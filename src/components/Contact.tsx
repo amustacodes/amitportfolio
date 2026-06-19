@@ -62,19 +62,19 @@ export default function Contact() {
     {
       icon: <Mail className="text-neon-cyan" size={18} />,
       label: "Email Address",
-      val: "amit.neupane@example.com",
-      href: "mailto:amit.neupane@example.com"
+      val: "ammsu71@gmail.com",
+      href: "mailto:ammsu71@gmail.com"
     },
     {
       icon: <Phone className="text-neon-purple" size={18} />,
       label: "Phone Number",
-      val: "+977-9800000000",
-      href: "tel:+9779800000000"
+      val: "+9779848635250",
+      href: "tel:+9779848635250"
     },
     {
       icon: <MapPin className="text-neon-pink" size={18} />,
       label: "Location Base",
-      val: "Kathmandu, Nepal",
+      val: "Butwal, Nepal",
       href: "https://maps.google.com"
     }
   ];
@@ -222,14 +222,14 @@ export default function Contact() {
                 <circle cx="50" cy="50" r="15" stroke="currentColor" strokeWidth="0.5" strokeDasharray="2 2" />
               </svg>
 
-              {/* Glowing Kathmandu Location pin marker */}
+              {/* Glowing Butwal Location pin marker */}
               <div className="absolute flex flex-col items-center justify-center">
                 <div className="w-4 h-4 rounded-full bg-neon-cyan flex items-center justify-center relative">
                   <div className="w-2 h-2 rounded-full bg-white" />
                   <div className="absolute inset-0 w-full h-full rounded-full bg-neon-cyan animate-ping opacity-60" />
                 </div>
                 <span className="font-display font-black text-[9px] uppercase tracking-widest text-white bg-dark-bg/90 border border-white/10 px-2 py-0.5 rounded-md mt-2 shadow-[0_0_10px_#00f5d4]">
-                  Kathmandu
+                  Butwal
                 </span>
               </div>
             </motion.div>

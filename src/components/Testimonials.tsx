@@ -17,7 +17,7 @@ const testimonials: Testimonial[] = [
     quote: "Good service building website for my cafee also ineventory management for my caffee also developing pos and saas software",
     name: "Dipendra Shakya",
     role: "Founder",
-    org: "Cafee",
+    org: "Hello fast food",
     image: "/dipendra.jpg"
   },
   {
